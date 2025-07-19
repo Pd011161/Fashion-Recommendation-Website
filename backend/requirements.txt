@@ -1,0 +1,17 @@
+langgraph
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+chromadb
+openai
+Pillow
+torch
+transformers
+pandas
+scikit-learn
+uvicorn
+fastapi
+sentence-transformers
+langchain_huggingface
+python-multipart

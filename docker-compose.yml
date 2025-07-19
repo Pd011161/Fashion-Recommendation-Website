@@ -1,0 +1,35 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    container_name: fashion-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/datalake:/app/datalake
+      - ./backend/database:/app/database
+      - ./backend/vector_db:/app/vector_db
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    networks:
+      - fashion-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: fashion-frontend
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - fashion-network
+
+networks:
+  fashion-network:
+    driver: bridge

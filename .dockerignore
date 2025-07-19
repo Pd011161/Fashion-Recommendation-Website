@@ -1,0 +1,10 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+node_modules
+frontend
+.git
+.DS_Store
+*.md
