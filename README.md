@@ -146,3 +146,12 @@ npm run dev
 
 ## ⚡ Quick Summary
 Fashion Recommendation Website is a full-stack AI-driven solution for smart fashion discovery, supporting both image and text search, multilingual queries, and beautiful recommendations.
+
+---
+
+## 🔗 Recommended Integration
+For even more accurate and versatile fashion recommendations, we suggest integrating the logic from the [Demo_fashion_recommend_find-and-match_logic repository](https://github.com/Pd011161/Demo_fashion_recommend_find-and-match_logic) 
+This enables the system to:
+- Find items that stylistically match each other (e.g., find pants that go well with a specific shirt, or vice versa)
+- Enhance search precision using advanced matching logic and pairing rules
+- Support style-based set recommendations (shirt + pants, full look, etc.)
