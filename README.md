@@ -151,6 +151,11 @@ Fashion Recommendation Website is a full-stack AI-driven solution for smart fash
 
 ## 🔗 Recommended Integration
 For even more accurate and versatile fashion recommendations, we suggest integrating the logic from the [Demo_fashion_recommend_find-and-match_logic repository](https://github.com/Pd011161/Demo_fashion_recommend_find-and-match_logic) 
+
+🎬 Demo Video:
+
+[![Watch the demo](https://img.youtube.com/vi/K8IeiCZmeL0/hqdefault.jpg)](https://youtu.be/K8IeiCZmeL0)
+
 This enables the system to:
 - Find items that stylistically match each other (e.g., find pants that go well with a specific shirt, or vice versa)
 - Enhance search precision using advanced matching logic and pairing rules
